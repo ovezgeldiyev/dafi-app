@@ -1,0 +1,255 @@
+// 1450px
+@include xxxxlg-xxxxxlg {
+  // @include hero-xxxxlg-xxxxxlg;
+}
+// 1380px
+@include xxxlg-xxxxlg {
+  h2 {
+    &.big {
+      font-size: 56px;
+    }
+  }
+  body {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  @include hero-xxxlg-xxxxlg;
+}
+// 1250px
+@include xlg-xxlg-extra {
+  @include hero-xlg-xxlg-extra;
+  @include community-xlg-xxlg-extra;
+}
+// 1180px
+@include xlg-xxlg {
+  .auto__container {
+    padding: 0 30px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 42px;
+    &.big {
+      font-size: 55px;
+    }
+  }
+  h3 {
+    font-size: 38px;
+  }
+  h4 {
+    font-size: 26px;
+    &.big {
+      font-size: 30px;
+    }
+    &.sm {
+      font-size: 22px;
+    }
+  }
+  p {
+    &.ex {
+      font-size: 18px;
+    }
+  }
+  .button {
+    &.uniq {
+      font-size: 20px;
+      padding: 12px 30px;
+    }
+  }
+  @include hero-xlg-xxlg;
+  @include info-xlg-xxlg;
+  @include organize-xlg-xxlg;
+  @include benefits-xlg-xxlg;
+  @include community-xlg-xxlg;
+  @include about-xlg-xxlg;
+  @include reviews-xlg-xxlg;
+  @include faq-xlg-xxlg;
+  @include join-xlg-xxlg;
+}
+// 1024px
+@include lg-xlg {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .auto__container {
+    padding: 0 22px;
+  }
+  h2 {
+    &.big {
+      font-size: 50px;
+    }
+  }
+  .main {
+    padding-top: 68.41px;
+  }
+
+  @include header-lg-xlg;
+  @include nav-lg-xlg;
+  @include hero-lg-xlg;
+  @include univer-lg-xlg;
+  @include community-lg-xlg;
+  @include reviews-lg-xlg;
+  @include join-lg-xlg;
+  @include about-lg-xlg;
+}
+// 930px
+@include md-lg {
+  h1 {
+    font-size: 45px;
+    span {
+      width: 90px;
+      height: 42px;
+      // padding: 4px 16px;
+      // svg {
+      //   width: 22px;
+      //   height: 22px;
+      //   margin-right: 6px;
+      // }
+    }
+  }
+  h2 {
+    font-size: 40px;
+    &.big {
+      font-size: 40px;
+    }
+  }
+  h3 {
+    font-size: 34px;
+  }
+  h4 {
+    font-size: 24px;
+    &.big {
+      font-size: 28px;
+    }
+  }
+  @include hero-md-lg;
+  @include info-md-lg;
+  @include organize-md-lg;
+  @include benefits-md-lg;
+  @include community-md-lg;
+  @include about-md-lg;
+  @include pricing-md-lg;
+  @include faq-md-lg;
+  @include footer-md-lg;
+}
+// 750px
+@include sm-md {
+  .auto__container {
+    padding: 0 16px;
+  }
+  h1 {
+    font-size: 44px;
+    letter-spacing: -0.02em;
+  }
+  h2 {
+    font-size: 36px;
+    &.big {
+      font-size: 32px;
+    }
+  }
+  h3 {
+    font-size: 32px;
+  }
+  h4 {
+    font-size: 22px;
+    &.big {
+      font-size: 24px;
+    }
+  }
+  body {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .button {
+    &.uniq {
+      font-size: 18px;
+      padding: 16px 38px;
+    }
+    &.light {
+      padding: 16px 36px;
+    }
+  }
+  @include hero-sm-md;
+  @include reviews-sm-md;
+  @include join-sm-md;
+  @include about-sm-md;
+}
+// 650px
+@include sm-md-extra {
+  @include hero-sm-md-extra;
+}
+// 540px
+@include xsm-sm {
+  h1 {
+    span {
+      width: 82px;
+      height: 39px;
+    }
+  }
+  p {
+    &.ex {
+      font-size: 14px;
+    }
+  }
+  @include hero-xsm-sm;
+  @include univer-xsm-sm;
+  @include info-xsm-sm;
+  @include benefits-xsm-sm;
+  @include community-xsm-sm;
+  @include about-xsm-sm;
+  @include reviews-xsm-sm;
+  @include faq-xsm-sm;
+  @include footer-xsm-sm;
+  @include organize-xsm-sm;
+  @include pricing-xsm-sm;
+}
+// 440px
+@include xxsm-xsm {
+  h1 {
+    font-size: 38px;
+    span {
+      width: 75px;
+      height: 33px;
+      transform: translateY(4px);
+    }
+  }
+  @include hero-xxsm-xsm;
+}
+// 390px
+@include xxxsm-xxsm {
+
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  p {
+    &.big {
+      font-size: 18px;
+    }
+  }
+  // @include hero-xxxsm-xxsm;
+}
+@include extra-mob {
+  h1 {
+    font-size: 32px;
+    span {
+      width: 75px;
+      height: 33px;
+      transform: translateY(4px);
+    }
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  p {
+    &.big {
+      font-size: 16px;
+    }
+  }
+}
